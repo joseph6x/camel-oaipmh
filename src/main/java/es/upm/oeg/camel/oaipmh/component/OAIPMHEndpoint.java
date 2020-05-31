@@ -54,4 +54,49 @@ public class OAIPMHEndpoint extends DefaultPollingEndpoint {
     public boolean isSingleton() {
         return true;
     }
+
+  public String getFrom() {
+    return from;
+  }
+
+  public void setFrom(String from) {
+    this.from = from;
+  }
+
+  public String getUntil() {
+    return until;
+  }
+
+  public void setUntil(String until) {
+    this.until = until;
+  }
+
+  public String getSet() {
+    return set;
+  }
+
+  public void setSet(String set) {
+    this.set = set;
+  }
+
+  public String getVerb() {
+    return verb;
+  }
+
+  public void setVerb(String verb) {
+    this.verb = verb;
+  }
+
+  public String getMetadataPrefix() {
+    return metadataPrefix;
+  }
+
+  public void setMetadataPrefix(String metadataPrefix) {
+    this.metadataPrefix = metadataPrefix;
+  }
+    
+  public String getUrl() {
+    return this.url;
+  }  
+    
 }
